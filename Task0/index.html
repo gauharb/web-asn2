@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Task 0: Flexbox navigation bar for Assignment #2.">
+    <title>Task 0 | Flexbox Navigation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="index.html" aria-label="Leaf and Light home">
+            <span class="brand-mark" aria-hidden="true">❋</span>
+            <span>Leaf <span class="brand-amp">&amp;</span> Light</span>
+        </a>
+        <nav class="main-nav" aria-label="Task navigation">
+            <a href="index.html" aria-current="page">Task 0</a>
+            <a href="../Task1/index.html">Task 1</a>
+            <a href="../Task2/index.html">Task 2</a>
+            <a href="../Task3/index.html">Task 3</a>
+            <a class="nav-cta" href="../Task4/index.html">Task 4 <span aria-hidden="true">↗</span></a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="task0-hero section-wrap">
+            <div>
+                <p class="eyebrow"><span class="eyebrow-line"></span> Part 1 · Flexbox</p>
+                <h1>A simple<br><em>navigation bar.</em></h1>
+                <p class="task0-text">
+                    The header uses Flexbox to keep the logo on the left and the navigation links on the right.
+                    The items are aligned vertically and spaced with Flexbox properties.
+                </p>
+            </div>
+            <div class="task0-demo">
+                <div class="task0-demo-label">FLEXBOX PROPERTIES</div>
+                <div class="task0-code">
+                    <code>display: flex;</code>
+                    <code>justify-content: space-between;</code>
+                    <code>align-items: center;</code>
+                    <code>gap: 24px;</code>
+                </div>
+            </div>
+        </section>
+
+        <section class="task0-points section-wrap">
+           <span>01</span><h2>Horizontal layout</h2><p>The logo and links are placed in one row.</p>
+           <span>02</span><h2>Vertical alignment</h2><p><code>align-items: center</code> keeps the items centered.</p>
+           <span>03</span><h2>Spacing</h2><p><code>gap</code> creates consistent space between links.</p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <a class="brand brand-light" href="index.html"><span class="brand-mark">❋</span><span>Leaf <span class="brand-amp">&amp;</span> Light</span></a>
+        <p>Assignment 2 </p>
+        <span>© 2026</span>
+    </footer>
+</body>
+</html>
